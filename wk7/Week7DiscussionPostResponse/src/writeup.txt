@@ -1,0 +1,18 @@
+Changes in IllegalLengthArgumentException.java
+
+- Added private static final long serialVersionUID = 1L; to remove serialization warning
+- Commented out message String to add length variable
+- Removed contents of IllegalLengthArgumentException that match our course examples, added more explicit error message
+
+Changes in SweatShirt.java
+- None, as the class was oddly never used
+
+Changes in Tshirt.java
+- None
+
+Changes in TopClothing.java
+- Imported Scanner library
+- Added new variables: shirtLength, shirtColor, shirtHasStripes, inputCatch, userInput
+- Added while loop based on inputCatch for user input
+- Added scanner functions to request user input for 3 variables
+- Modified try statement to take user input for new object
